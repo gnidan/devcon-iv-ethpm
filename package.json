@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:gnidan/devcon-iv-ethpm.git",
   "author": "g. nicholas d'andrea <gnidan@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ethpm": "^0.1.0-next.8"
+  }
 }
