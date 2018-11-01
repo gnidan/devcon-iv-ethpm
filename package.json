@@ -1,0 +1,9 @@
+{
+  "name": "devcon-iv-ethpm-workshop-starter",
+  "version": "1.0.0",
+  "description": "devcon iv. EthPM Workshop - Javascript",
+  "main": "index.js",
+  "repository": "git@github.com:gnidan/devcon-iv-ethpm.git",
+  "author": "g. nicholas d'andrea <gnidan@users.noreply.github.com>",
+  "license": "MIT"
+}
