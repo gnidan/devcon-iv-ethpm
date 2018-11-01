@@ -1,5 +1,6 @@
 const fs = require("fs");
 const Web3 = require("web3");
+const { URL } = require("url");
 
 const { EthPM } = require("ethpm");
 
@@ -11,7 +12,6 @@ async function main(registryAddress) {
    * initialize Web3
    */
   const web3 = new Web3("http://127.0.0.1:8547");
-  console.debug("web3 %o", web3);
 
   /*
    * initialize EthPM
@@ -92,6 +92,13 @@ async function main(registryAddress) {
   /*
    * publish to registry
    */
+  const pkg = await ethpm.registries.publish(
+    "owned", "1.0.0", manifestUri
+  );
+  console.log("Published package to registry.");
+  console.log();
+
+  console.debug("pkg %o", pkg);
 }
 
 if (process.argv.length < 3) {
