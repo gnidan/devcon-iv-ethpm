@@ -18,7 +18,7 @@ devcon iv. EthPM Workshop - Javascript
 ## Find the PackageRegistry contract address
 
 ```
-npx run networks
+npx truffle networks
 ```
 
 in the `escape-truffle` folder.
